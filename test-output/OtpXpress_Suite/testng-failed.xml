@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OtpXpress_Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="in.otpxpress.qa.extentReportListener.TestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="OtpXpress_Regression(failed)">
+    <classes>
+      <class name="in.otpxpress.qa.testcases.LocationPopUpTest">
+        <methods>
+          <include name="popUpEnterTest"/>
+          <include name="openWebPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- in.otpxpress.qa.testcases.LocationPopUpTest -->
+      <class name="in.otpxpress.qa.testcases.SignUpPageTest">
+        <methods>
+          <include name="signUpPageTitleTest"/>
+          <include name="openWebPage"/>
+          <include name="enterCredentialsTest"/>
+          <include name="tearDown"/>
+          <include name="signInLinkTest"/>
+        </methods>
+      </class> <!-- in.otpxpress.qa.testcases.SignUpPageTest -->
+    </classes>
+  </test> <!-- OtpXpress_Regression(failed) -->
+</suite> <!-- Failed suite [OtpXpress_Suite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OtpXpress_Suite">
+	<listeners>
+		<listener class-name="in.otpxpress.qa.extentReportListener.TestNGListener"></listener>
+	</listeners>
+  <test name="OtpXpress_Regression">
+    <classes>
+      <class name="in.otpxpress.qa.testcases.LocationPopUpTest"/>
+      <class name="in.otpxpress.qa.testcases.SignUpPageTest"/>
+      <!--  class name="in.otpxpress.qa.testcases.MyAccountPageTest"/>  -->
+          
+    </classes>
+  </test> <!-- OtpXpress_Regression -->
+</suite> <!-- OtpXpress_Suite -->

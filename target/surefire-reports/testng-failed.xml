@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="in.otpxpress.qa.testcases.ProductDetailsPageTest">
+        <methods>
+          <include name="openWebPage"/>
+          <include name="verifyProductName_Test"/>
+        </methods>
+      </class> <!-- in.otpxpress.qa.testcases.ProductDetailsPageTest -->
+      <class name="in.otpxpress.qa.testcases.HomePageTest">
+        <methods>
+          <include name="searchProduct"/>
+          <include name="openWebPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- in.otpxpress.qa.testcases.HomePageTest -->
+      <class name="in.otpxpress.qa.testcases.ProductsCategoriesTest">
+        <methods>
+          <include name="fruitsNVegetables_Test"/>
+          <include name="openWebPage"/>
+        </methods>
+      </class> <!-- in.otpxpress.qa.testcases.ProductsCategoriesTest -->
+      <class name="in.otpxpress.qa.testcases.LocationPopUpTest">
+        <methods>
+          <include name="popUpEnterTest"/>
+          <include name="openWebPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- in.otpxpress.qa.testcases.LocationPopUpTest -->
+      <class name="in.otpxpress.qa.testcases.SignInTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="AccountInfoCheckTest"/>
+        </methods>
+      </class> <!-- in.otpxpress.qa.testcases.SignInTest -->
+      <class name="in.otpxpress.qa.testcases.DataDrivenTest">
+        <methods>
+          <include name="openWebPage"/>
+          <include name="tearDown"/>
+          <include name="ddt_Test"/>
+        </methods>
+      </class> <!-- in.otpxpress.qa.testcases.DataDrivenTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
